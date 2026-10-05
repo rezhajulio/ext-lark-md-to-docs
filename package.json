@@ -6,7 +6,8 @@
   "scripts": {
     "build": "vite build",
     "dev": "vite build --watch",
-    "package:firefox": "npx web-ext build --source-dir dist --overwrite-dest"
+    "package:firefox": "npx web-ext build --source-dir dist --overwrite-dest",
+    "package:xpi": "npx web-ext build --source-dir dist --filename md_to_lark_docs.xpi --overwrite-dest"
   },
   "dependencies": {
     "@types/turndown": "^5.0.6",

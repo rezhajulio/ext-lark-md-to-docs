@@ -32,12 +32,15 @@ jobs:
       - name: Package extension
         run: |
           npm run package:firefox
+          npm run package:xpi
 
-      - name: Upload zip artifact
+      - name: Upload packaged extensions
         uses: actions/upload-artifact@v4
         with:
-          name: md-to-lark-docs-zip
-          path: web-ext-artifacts/*.zip
+          name: md-to-lark-docs-packages
+          path: |
+            web-ext-artifacts/*.zip
+            web-ext-artifacts/*.xpi
           retention-days: 7
 
       - name: Upload dist folder artifact
