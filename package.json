@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "build": "vite build",
-    "dev": "vite build --watch"
+    "dev": "vite build --watch",
+    "package:firefox": "npx web-ext build --source-dir dist --overwrite-dest"
   },
   "dependencies": {
     "@types/turndown": "^5.0.6",

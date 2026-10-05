@@ -11,6 +11,8 @@ dist/
 *.zip
 *.crx
 *.pem
+*.xpi
+web-ext-artifacts/
 
 # OS files
 .DS_Store

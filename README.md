@@ -5,7 +5,7 @@
 <h1 align="center">MD to Lark Docs</h1>
 
 <p align="center">
-  <strong>A Chrome Extension that converts Markdown files into Lark (Feishu) documents — with diagram rendering, image embedding, and multi-language support.</strong>
+  <strong>A Chrome & Firefox Extension that converts Markdown files into Lark (Feishu) documents — with diagram rendering, image embedding, and multi-language support.</strong>
 </p>
 
 <p align="center">
@@ -20,6 +20,7 @@
 
 <p align="center">
   <img alt="Chrome Manifest V3" src="https://img.shields.io/badge/Manifest-V3-blue?logo=googlechrome&logoColor=white" />
+  <img alt="Firefox" src="https://img.shields.io/badge/Firefox-128+-FF7139?logo=firefox-browser&logoColor=white" />
   <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-5.6-3178C6?logo=typescript&logoColor=white" />
   <img alt="React" src="https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=black" />
   <img alt="Vite" src="https://img.shields.io/badge/Vite-6-646CFF?logo=vite&logoColor=white" />
@@ -64,6 +65,11 @@
    - Enable **Developer mode** (top-right toggle)
    - Click **Load unpacked**
    - Select the `dist/` folder
+
+4. Load in Firefox:
+   - Navigate to `about:debugging#/runtime/this-firefox`
+   - Click **Load Temporary Add-on...**
+   - Select `dist/manifest.json`
 
 ---
 
